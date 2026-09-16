@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#05060a" />
+  <meta name="description" content="JN Santos Web Studio — sites premium, landing pages, lojas virtuais e soluções digitais feitas para destacar marcas e gerar oportunidades." />
+  <meta property="og:title" content="JN Santos Web Studio — Sites premium e soluções digitais" />
+  <meta property="og:description" content="Design estratégico, tecnologia e experiências digitais que valorizam sua marca." />
+  <title>JN Santos Web Studio — Sites premium e soluções digitais</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2305060a'/%3E%3Cpath d='M16 17v21c0 7 4 10 10 10 6 0 10-4 10-10V17M36 34l12 14V17' fill='none' stroke='%2300d5ff' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <style>
+    :root{
+      --bg:#05060a;--bg2:#080b12;--panel:#0d111b;--panel2:#111827;--text:#f6f8fc;--muted:#98a3b8;
+      --line:rgba(255,255,255,.105);--line2:rgba(255,255,255,.18);--cyan:#00d5ff;--blue:#2c70ff;--violet:#8758ff;
+      --green:#52ffc8;--radius:24px;--shadow:0 30px 80px rgba(0,0,0,.36)
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:"Manrope",sans-serif;overflow-x:hidden;line-height:1.6}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}button{font:inherit}.container{width:min(1220px,calc(100% - 40px));margin:auto}.mono{font-family:"DM Mono",monospace;letter-spacing:.04em}.progress{position:fixed;left:0;top:0;height:2px;width:0;z-index:150;background:linear-gradient(90deg,var(--violet),var(--blue),var(--cyan));box-shadow:0 0 16px var(--cyan)}
+
+    body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:
+      radial-gradient(circle at 82% 12%,rgba(44,112,255,.13),transparent 29%),
+      radial-gradient(circle at 18% 72%,rgba(135,88,255,.09),transparent 30%)}
+    body::after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.03;z-index:50;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+    .site-header{position:fixed;z-index:120;left:0;right:0;top:0;border-bottom:1px solid transparent;transition:.25s}.site-header.scrolled{background:rgba(5,6,10,.78);backdrop-filter:blur(20px);border-color:var(--line)}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:-.035em}.brand img{width:40px;height:40px;object-fit:cover;border-radius:50%;border:1px solid rgba(0,213,255,.42);box-shadow:0 0 22px rgba(0,213,255,.12)}.brand small{display:block;color:#758198;font:500 .56rem/1 "DM Mono",monospace;letter-spacing:.18em;text-transform:uppercase;margin-top:4px}.nav-links{display:flex;align-items:center;gap:29px;color:#b4bdcc;font-size:.89rem}.nav-links>a:not(.nav-cta):hover{color:#fff}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:0 19px;border-radius:999px;border:1px solid transparent;font-weight:800;transition:.2s;cursor:pointer}.nav-cta{min-height:42px;padding:0 16px;font-size:.82rem;background:linear-gradient(115deg,var(--cyan),#9aecff);color:#001018}.btn.primary{background:linear-gradient(115deg,var(--cyan),#8eeeff);color:#001018}.btn.ghost{border-color:var(--line2);background:rgba(255,255,255,.035);color:#fff}.btn:hover,.nav-cta:hover{transform:translateY(-2px);box-shadow:0 14px 42px rgba(0,213,255,.14)}.menu{display:none;background:none;border:0;color:#fff;padding:9px}
+
+    .hero{position:relative;min-height:100svh;display:flex;align-items:center;padding:126px 0 70px;border-bottom:1px solid var(--line);overflow:hidden}.hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.034) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.034) 1px,transparent 1px);background-size:54px 54px;mask-image:linear-gradient(to bottom,black,transparent 92%);opacity:.58}.hero::after{content:"";position:absolute;width:540px;height:540px;border:1px solid rgba(0,213,255,.18);border-radius:50%;right:-250px;top:70px;box-shadow:0 0 110px rgba(44,112,255,.15),inset 0 0 100px rgba(135,88,255,.04)}.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,.92fr) minmax(470px,1.08fr);gap:62px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--cyan);font-size:.74rem;text-transform:uppercase}.eyebrow::before{content:"";width:40px;height:1px;background:currentColor;box-shadow:0 0 10px currentColor}.hero h1{font-family:"Space Grotesk",sans-serif;font-size:clamp(3.6rem,6.9vw,7rem);line-height:.91;letter-spacing:-.072em;margin:22px 0 24px;max-width:800px}.hero h1 em{font-style:normal;color:transparent;-webkit-text-stroke:1px rgba(246,248,252,.58)}.hero-copy{max-width:650px;margin:0;color:#b8c1d0;font-size:clamp(1.02rem,1.35vw,1.2rem)}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}.hero-meta{display:flex;gap:24px;flex-wrap:wrap;margin-top:36px;color:#7f8ba0;font-size:.73rem;text-transform:uppercase}.hero-meta span{display:flex;align-items:center;gap:8px}.hero-meta i{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 13px var(--green)}
+
+    .showcase{position:relative;min-height:590px;isolation:isolate}.halo{position:absolute;inset:7% 2% 0 9%;background:radial-gradient(circle,rgba(0,213,255,.15),transparent 60%);filter:blur(34px);z-index:-2}.orbit{position:absolute;width:440px;height:440px;border-radius:50%;border:1px dashed rgba(0,213,255,.17);right:10px;top:62px;animation:spin 34s linear infinite;z-index:-1}.orbit::before,.orbit::after{content:"";position:absolute;width:9px;height:9px;border-radius:50%;background:var(--cyan);box-shadow:0 0 20px var(--cyan)}.orbit::before{left:49%;top:-5px}.orbit::after{right:18px;bottom:86px;background:var(--violet);box-shadow:0 0 20px var(--violet)}@keyframes spin{to{transform:rotate(360deg)}}
+    .tech-window{position:absolute;overflow:hidden;border:1px solid var(--line2);border-radius:22px;background:rgba(11,15,24,.86);box-shadow:var(--shadow);backdrop-filter:blur(15px);transform-style:preserve-3d;transition:.25s}.tech-window:hover{border-color:rgba(0,213,255,.42);transform:translateY(-6px) rotate(0deg)!important;z-index:6}.window-top{height:34px;display:flex;align-items:center;gap:6px;padding:0 12px;border-bottom:1px solid var(--line);background:rgba(4,6,10,.84)}.window-top i{width:7px;height:7px;border-radius:50%;background:#314056}.window-top i:first-child{background:var(--cyan)}.window-top span{margin-left:7px;color:#66738a;font-size:.57rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.window-main{right:0;top:72px;width:78%;transform:rotate(1.6deg);z-index:3}.window-secondary{left:0;top:0;width:57%;transform:rotate(-3deg);z-index:2}.window-third{left:7%;bottom:15px;width:49%;transform:rotate(2.3deg);z-index:4}.tech-window img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top}.window-label{position:absolute;right:17px;bottom:14px;padding:8px 11px;border-radius:999px;background:rgba(5,7,11,.82);border:1px solid var(--line);font:500 .62rem "DM Mono",monospace;color:#d7e0ed;backdrop-filter:blur(8px)}.tech-code{position:absolute;right:3%;bottom:2px;z-index:5;padding:13px 15px;border:1px solid rgba(82,255,200,.22);border-radius:16px;background:rgba(5,8,12,.82);box-shadow:0 18px 46px rgba(0,0,0,.25);font-size:.63rem;color:#72839c}.tech-code b{color:var(--green);font-weight:500}.tech-code .cyan{color:var(--cyan)}
+
+    .ticker{overflow:hidden;border-bottom:1px solid var(--line);background:#070910}.ticker-track{display:flex;width:max-content;animation:ticker 30s linear infinite}.ticker-set{display:flex;gap:28px;align-items:center;padding:15px 14px;color:#8d98ab;font-size:.7rem;text-transform:uppercase}.ticker-set span{white-space:nowrap}.ticker-set i{width:5px;height:5px;border-radius:50%;background:var(--cyan);box-shadow:0 0 12px var(--cyan)}@keyframes ticker{to{transform:translateX(-50%)}}
+
+    section{position:relative;padding:clamp(82px,9vw,130px) 0}.section-head{display:grid;grid-template-columns:.5fr 1.5fr;gap:52px;margin-bottom:54px}.kicker{color:var(--cyan);font-size:.72rem;text-transform:uppercase}.section-head h2,.headline{font-family:"Space Grotesk",sans-serif;font-size:clamp(2.7rem,5.6vw,5.5rem);line-height:.96;letter-spacing:-.058em;margin:0}.section-intro{max-width:690px;color:var(--muted);font-size:1.05rem;margin:18px 0 0}
+
+    .work{background:linear-gradient(180deg,#070910,var(--bg2))}.featured-grid{display:grid;grid-template-columns:1.22fr .78fr;gap:18px}.feature-card{position:relative;overflow:hidden;min-height:600px;border:1px solid var(--line);border-radius:var(--radius);background:#0c111a}.feature-card.small{min-height:291px}.feature-stack{display:grid;gap:18px}.feature-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;transition:transform .5s ease,filter .5s}.feature-card::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 37%,rgba(5,7,11,.2) 54%,rgba(5,7,11,.96) 100%)}.feature-card:hover img{transform:scale(1.035);filter:saturate(1.08)}.feature-card:hover{border-color:rgba(0,213,255,.35)}.feature-content{position:absolute;z-index:2;left:28px;right:28px;bottom:25px;display:flex;align-items:end;justify-content:space-between;gap:20px}.feature-content .tag{font-size:.67rem;color:var(--cyan);text-transform:uppercase}.feature-content h3{font-family:"Space Grotesk",sans-serif;font-size:clamp(1.7rem,3vw,2.6rem);letter-spacing:-.04em;line-height:1.05;margin:6px 0 0}.feature-open{width:48px;height:48px;flex:0 0 48px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--line2);background:rgba(255,255,255,.04);font-size:1.25rem}.project-strip{margin-top:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.mini-card{overflow:hidden;border:1px solid var(--line);border-radius:20px;background:var(--panel);transition:.25s}.mini-card:hover{transform:translateY(-5px);border-color:rgba(0,213,255,.34)}.mini-shot{aspect-ratio:16/10;overflow:hidden;border-bottom:1px solid var(--line);background:#121827}.mini-shot img{width:100%;height:100%;object-fit:cover;object-position:top;transition:.4s}.mini-card:hover img{transform:scale(1.035)}.mini-copy{padding:18px 19px 20px}.mini-copy span{color:#76839a;font-size:.66rem;text-transform:uppercase}.mini-copy h3{font-family:"Space Grotesk",sans-serif;margin:5px 0 0;font-size:1.22rem}.more-projects{margin-top:26px;border-top:1px solid var(--line)}.project-row{display:grid;grid-template-columns:64px 1.2fr 1fr auto;gap:20px;align-items:center;padding:20px 3px;border-bottom:1px solid var(--line);color:#aab4c4;transition:.2s}.project-row strong{color:#fff;font-size:1.02rem}.project-row:hover{padding-left:10px;color:#fff}.project-row .num{color:#536077;font-size:.66rem}.project-row .open{color:var(--cyan);font-size:.65rem;text-transform:uppercase}
+
+    .services{overflow:hidden}.services::before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;left:-300px;top:20%;background:rgba(44,112,255,.1);filter:blur(90px)}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.service-card{position:relative;min-height:300px;padding:25px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,rgba(15,21,34,.88),rgba(7,10,16,.92));overflow:hidden;transition:.25s}.service-card::before{content:"";position:absolute;width:160px;height:160px;border:1px solid rgba(0,213,255,.12);border-radius:36px;right:-65px;top:-68px;transform:rotate(28deg);transition:.3s}.service-card:hover{transform:translateY(-5px);border-color:rgba(0,213,255,.35)}.service-card:hover::before{transform:rotate(42deg) scale(1.1)}.service-number{color:#56637a;font-size:.64rem}.service-icon{width:50px;height:50px;margin:25px 0 39px;border:1px solid rgba(0,213,255,.28);border-radius:15px;display:grid;place-items:center;background:rgba(0,213,255,.05);color:var(--cyan)}.service-icon svg{width:24px}.service-card h3{font-family:"Space Grotesk",sans-serif;font-size:1.45rem;letter-spacing:-.03em;margin:0 0 8px}.service-card p{color:#8f9ab0;margin:0;font-size:.92rem}
+
+    .quality{background:#070910}.quality-grid{display:grid;grid-template-columns:.86fr 1.14fr;gap:70px;align-items:start}.quality-copy{position:sticky;top:120px}.quality-copy p{color:var(--muted);max-width:560px}.quality-list{display:grid;gap:12px}.quality-item{display:grid;grid-template-columns:50px 1fr;gap:17px;padding:21px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.025)}.quality-item b{width:44px;height:44px;border-radius:13px;display:grid;place-items:center;background:rgba(0,213,255,.07);border:1px solid rgba(0,213,255,.2);color:var(--cyan);font:500 .68rem "DM Mono",monospace}.quality-item h3{margin:0 0 5px;font-family:"Space Grotesk",sans-serif;font-size:1.15rem}.quality-item p{margin:0;color:#8f9aaf;font-size:.9rem}.stack{display:flex;flex-wrap:wrap;gap:9px;margin-top:30px}.stack span{padding:8px 11px;border:1px solid var(--line);border-radius:999px;color:#8c97aa;font-size:.69rem;background:rgba(255,255,255,.022)}
+
+    .process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:22px;overflow:hidden}.step{padding:27px;min-height:250px;background:rgba(255,255,255,.018);border-right:1px solid var(--line)}.step:last-child{border-right:0}.step-num{color:var(--cyan);font-size:.67rem}.step h3{font-family:"Space Grotesk",sans-serif;font-size:1.28rem;margin:55px 0 10px}.step p{color:#8f9aaf;margin:0;font-size:.9rem}
+
+    .cta{padding-top:55px}.cta-box{position:relative;overflow:hidden;border:1px solid rgba(0,213,255,.2);border-radius:30px;padding:clamp(36px,6vw,74px);background:linear-gradient(135deg,rgba(17,25,40,.98),rgba(7,10,17,.98));display:grid;grid-template-columns:1.3fr .7fr;gap:50px;align-items:end}.cta-box::before{content:"";position:absolute;width:420px;height:420px;border-radius:50%;right:-130px;top:-200px;border:1px solid rgba(0,213,255,.2);box-shadow:0 0 100px rgba(44,112,255,.13)}.cta-box h2{font-family:"Space Grotesk",sans-serif;font-size:clamp(2.6rem,5vw,5rem);line-height:.98;letter-spacing:-.055em;margin:8px 0 0}.cta-side{position:relative;z-index:2}.cta-side p{color:#a0aabe;margin:0 0 20px}.copy-note{min-height:18px;color:#6f7d94;font-size:.65rem;margin-top:10px}footer{padding:34px 0 42px;color:#6f7a8f;font-size:.78rem}.footer-row{display:flex;justify-content:space-between;gap:24px;align-items:center;border-top:1px solid var(--line);padding-top:28px}.footer-brand{color:#fff;font-weight:800}
+
+    .reveal{opacity:0;transform:translateY(22px);transition:.65s ease}.reveal.visible{opacity:1;transform:none}
+
+    @media(max-width:1000px){.hero-grid{grid-template-columns:1fr;gap:26px}.showcase{min-height:540px;max-width:760px}.hero{padding-top:116px}.featured-grid{grid-template-columns:1fr}.feature-card{min-height:520px}.feature-stack{grid-template-columns:1fr 1fr}.feature-card.small{min-height:290px}.quality-grid{grid-template-columns:1fr}.quality-copy{position:static}.process-grid{grid-template-columns:1fr 1fr}.step:nth-child(2){border-right:0}.step:nth-child(-n+2){border-bottom:1px solid var(--line)}.cta-box{grid-template-columns:1fr}.section-head{grid-template-columns:1fr;gap:12px}}
+    @media(max-width:760px){.container{width:min(100% - 28px,1220px)}.nav{height:70px}.nav-links{position:absolute;left:14px;right:14px;top:76px;display:none;flex-direction:column;align-items:stretch;gap:3px;padding:12px;border:1px solid var(--line);border-radius:18px;background:rgba(7,9,15,.96);backdrop-filter:blur(18px)}.nav-links.open{display:flex}.nav-links>a{padding:11px 12px}.nav-cta{margin-top:5px}.menu{display:block}.hero{min-height:auto;padding:115px 0 55px}.hero h1{font-size:clamp(3.05rem,15vw,5rem)}.showcase{min-height:410px}.window-main{width:83%;top:72px}.window-secondary{width:61%}.window-third{width:54%;bottom:15px}.tech-code{display:none}.orbit{width:330px;height:330px;right:-60px}.hero-meta{gap:14px 20px}.section-head{margin-bottom:34px}.featured-grid{display:block}.feature-card{min-height:420px;margin-bottom:14px}.feature-stack{display:block}.feature-card.small{min-height:330px}.project-strip{grid-template-columns:1fr}.project-row{grid-template-columns:42px 1fr auto}.project-row>span:nth-child(3){display:none}.service-grid{grid-template-columns:1fr}.service-card{min-height:245px}.service-icon{margin-bottom:24px}.process-grid{grid-template-columns:1fr}.step{border-right:0!important;border-bottom:1px solid var(--line)!important;min-height:210px}.step:last-child{border-bottom:0!important}.step h3{margin-top:35px}.footer-row{flex-direction:column;align-items:flex-start}.cta-box{padding:32px 25px}.feature-content{left:20px;right:20px;bottom:18px}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body id="top">
+  <div class="progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="JN Santos Web Studio — início">
+        <img src="assets/brand-avatar.jpg" alt="" width="557" height="573" />
+        <span>JN Santos<small>Web Studio</small></span>
+      </a>
+      <button class="menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8h16M4 16h16"/></svg></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#projetos">Projetos</a><a href="#servicos">Serviços</a><a href="#diferenciais">Diferenciais</a><a href="#processo">Processo</a>
+        <a class="nav-cta" href="#contato">Solicitar projeto <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-grid container">
+        <div class="hero-copybox reveal">
+          <span class="eyebrow mono">Design estratégico + tecnologia</span>
+          <h1>Sites que fazem sua marca parecer <em>maior.</em></h1>
+          <p class="hero-copy">Criamos experiências digitais premium para transformar a primeira impressão da sua empresa em confiança, desejo e oportunidade de negócio.</p>
+          <div class="hero-actions"><a class="btn primary" href="#projetos">Explorar projetos <span>↗</span></a><a class="btn ghost" href="#servicos">Ver soluções</a></div>
+          <div class="hero-meta mono"><span><i></i> projetos reais online</span><span>mobile-first</span><span>design sob medida</span></div>
+        </div>
+
+        <div class="showcase reveal" aria-label="Destaques do portfólio JN Santos">
+          <div class="halo"></div><div class="orbit" aria-hidden="true"></div>
+          <a class="tech-window window-secondary" href="https://jnsantoswebstudio.github.io/FUTURE-SOLU-ES-SOLAR/" target="_blank" rel="noopener"><div class="window-top"><i></i><i></i><i></i><span>future-solar / projeto</span></div><img src="assets/projects/future-solar.png" alt="Projeto Future Soluções Solar" /><span class="window-label">Solar · Premium</span></a>
+          <a class="tech-window window-main" href="https://jnsantoswebstudio.github.io/LIFE-FIT/" target="_blank" rel="noopener"><div class="window-top"><i></i><i></i><i></i><span>life-fit / projeto publicado</span></div><img src="assets/projects/life-fit.png" alt="Projeto Estúdio Life Fit" /><span class="window-label">Fitness · Experience</span></a>
+          <a class="tech-window window-third" href="https://jnsantoswebstudio.github.io/CAF-.E.POUSADA/" target="_blank" rel="noopener"><div class="window-top"><i></i><i></i><i></i><span>café-hospedagem / live</span></div><img src="assets/projects/cafe-hospedagem.png" alt="Projeto Café Hospedagem" /><span class="window-label">Hospitalidade</span></a>
+          <div class="tech-code mono"><b>status:</b> online<br><span class="cyan">performance</span> + ux + identity<br>deploy → github pages ✓</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><div class="ticker-set"><span>Sites profissionais</span><i></i><span>Landing pages</span><i></i><span>Lojas virtuais</span><i></i><span>Sistemas</span><i></i><span>UX/UI design</span><i></i><span>GitHub Pages</span><i></i></div><div class="ticker-set"><span>Sites profissionais</span><i></i><span>Landing pages</span><i></i><span>Lojas virtuais</span><i></i><span>Sistemas</span><i></i><span>UX/UI design</span><i></i><span>GitHub Pages</span><i></i></div></div></div>
+
+    <section class="work" id="projetos">
+      <div class="container">
+        <div class="section-head reveal"><span class="kicker mono">01 / Projetos selecionados</span><div><h2>O melhor do nosso portfólio, em destaque.</h2><p class="section-intro">Projetos reais, com propostas visuais diferentes e foco em transformar cada negócio em uma experiência digital própria. Clique para abrir os sites publicados.</p></div></div>
+
+        <div class="featured-grid">
+          <a class="feature-card reveal" href="https://jnsantoswebstudio.github.io/FUTURE-SOLU-ES-SOLAR/" target="_blank" rel="noopener"><img src="assets/projects/future-solar.png" alt="Site Future Soluções Solar" loading="lazy" /><div class="feature-content"><div><span class="tag mono">Energia · Tecnologia · Captação</span><h3>Future Soluções Solar</h3></div><span class="feature-open">↗</span></div></a>
+          <div class="feature-stack">
+            <a class="feature-card small reveal" href="https://jnsantoswebstudio.github.io/LIFE-FIT/" target="_blank" rel="noopener"><img src="assets/projects/life-fit.png" alt="Site Estúdio Life Fit" loading="lazy" /><div class="feature-content"><div><span class="tag mono">Fitness · Interação</span><h3>Estúdio Life Fit</h3></div><span class="feature-open">↗</span></div></a>
+            <a class="feature-card small reveal" href="https://jnsantoswebstudio.github.io/CAF-.E.POUSADA/" target="_blank" rel="noopener"><img src="assets/projects/cafe-hospedagem.png" alt="Site Café Hospedagem" loading="lazy" /><div class="feature-content"><div><span class="tag mono">Hospitalidade · Gastronomia</span><h3>Café Hospedagem</h3></div><span class="feature-open">↗</span></div></a>
+          </div>
+        </div>
+
+        <div class="project-strip">
+          <a class="mini-card reveal" href="https://jnsantoswebstudio.github.io/CCO-ELETRICA/" target="_blank" rel="noopener"><div class="mini-shot"><img src="assets/projects/cco-eletrica.png" alt="Site CCO Elétrica" loading="lazy" /></div><div class="mini-copy"><span class="mono">Serviços · Comercial</span><h3>CCO Elétrica ↗</h3></div></a>
+          <a class="mini-card reveal" href="https://jnsantoswebstudio.github.io/CANTINHO-DO-PET/" target="_blank" rel="noopener"><div class="mini-shot"><img src="assets/projects/cantinho-pet.png" alt="Site Cantinho do Pet" loading="lazy" /></div><div class="mini-copy"><span class="mono">Pet care · Local</span><h3>Cantinho do Pet ↗</h3></div></a>
+          <a class="mini-card reveal" href="https://jnsantoswebstudio.github.io/FUTURE-SOLU-ES-SOLAR/" target="_blank" rel="noopener"><div class="mini-shot"><img src="assets/projects/future-solar.png" alt="Site Future Soluções Solar" loading="lazy" /></div><div class="mini-copy"><span class="mono">Solar · Engenharia</span><h3>Future Solar ↗</h3></div></a>
+        </div>
+
+        <div class="more-projects" aria-label="Mais projetos publicados">
+          <a class="project-row reveal" href="https://jnsantoswebstudio.github.io/ADESAB/" target="_blank" rel="noopener"><span class="num mono">06</span><strong>ADESAB Itaipuaçu</strong><span>Institucional · Comunidade</span><span class="open mono">abrir ↗</span></a>
+          <a class="project-row reveal" href="https://jnsantoswebstudio.github.io/CEI.ITAIPU/" target="_blank" rel="noopener"><span class="num mono">07</span><strong>CEI Itaipu</strong><span>Igreja · Conteúdo</span><span class="open mono">abrir ↗</span></a>
+          <a class="project-row reveal" href="https://jnsantoswebstudio.github.io/NEW-AGE/" target="_blank" rel="noopener"><span class="num mono">08</span><strong>New Age Grupo Empresarial</strong><span>Corporativo · Soluções</span><span class="open mono">abrir ↗</span></a>
+          <a class="project-row reveal" href="https://jnsantoswebstudio.github.io/ADEGA.FORLETTA/" target="_blank" rel="noopener"><span class="num mono">09</span><strong>Adega Forletta</strong><span>Vinhos · Gastronomia</span><span class="open mono">abrir ↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="servicos">
+      <div class="container">
+        <div class="section-head reveal"><span class="kicker mono">02 / Soluções</span><div><h2>Mais que páginas bonitas. Estruturas para crescer.</h2><p class="section-intro">Cada projeto combina design, clareza, desempenho e uma jornada pensada para aproximar o visitante do próximo passo.</p></div></div>
+        <div class="service-grid">
+          <article class="service-card reveal"><span class="service-number mono">01</span><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div><h3>Site profissional</h3><p>Presença digital premium, responsiva e alinhada ao posicionamento da sua marca.</p></article>
+          <article class="service-card reveal"><span class="service-number mono">02</span><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19V9m0 10h16M8 16l4-5 3 2 5-7"/></svg></div><h3>Landing page</h3><p>Páginas focadas em campanhas, anúncios, lançamentos e geração de contatos.</p></article>
+          <article class="service-card reveal"><span class="service-number mono">03</span><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6h18l-2 9H6L3 3H1"/><circle cx="8" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg></div><h3>Loja virtual</h3><p>Catálogo, checkout e experiência de compra organizados para vender online.</p></article>
+          <article class="service-card reveal"><span class="service-number mono">04</span><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg></div><h3>Sistemas e painéis</h3><p>Áreas administrativas, fluxos internos e soluções personalizadas para operação.</p></article>
+          <article class="service-card reveal"><span class="service-number mono">05</span><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/><path d="M9 7h6M9 11h6M9 15h4"/></svg></div><h3>Cardápio digital</h3><p>Experiência rápida para restaurantes, cafés e negócios com atendimento por QR Code.</p></article>
+          <article class="service-card reveal"><span class="service-number mono">06</span><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M12 7v5l3 2M16 3h5v5"/></svg></div><h3>Evolução contínua</h3><p>Manutenção, novas páginas, melhorias e atualizações para o site continuar evoluindo.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quality" id="diferenciais">
+      <div class="container quality-grid">
+        <div class="quality-copy reveal"><span class="kicker mono">03 / Diferenciais</span><h2 class="headline">Tecnologia sem aparência de template.</h2><p>O objetivo é simples: fazer sua marca parecer profissional desde o primeiro segundo — com uma interface que tenha identidade, organização e velocidade.</p><div class="stack mono"><span>Responsive</span><span>SEO ready</span><span>GitHub Pages</span><span>Performance</span><span>UI/UX</span><span>WhatsApp</span><span>Analytics ready</span></div></div>
+        <div class="quality-list">
+          <article class="quality-item reveal"><b>01</b><div><h3>Visual feito para o seu negócio</h3><p>Hierarquia, cores, tipografia e detalhes definidos a partir do posicionamento da marca.</p></div></article>
+          <article class="quality-item reveal"><b>02</b><div><h3>Experiência responsiva</h3><p>O projeto nasce preparado para celular, tablet e desktop, sem depender de adaptações improvisadas.</p></div></article>
+          <article class="quality-item reveal"><b>03</b><div><h3>Conversão no caminho certo</h3><p>CTAs, WhatsApp e informações importantes aparecem no momento em que o visitante precisa.</p></div></article>
+          <article class="quality-item reveal"><b>04</b><div><h3>Estrutura leve e publicável</h3><p>Este portfólio, por exemplo, está preparado para GitHub Pages sem build, servidor ou dependência pesada.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="processo">
+      <div class="container">
+        <div class="section-head reveal"><span class="kicker mono">04 / Processo</span><div><h2>Da ideia ao site no ar.</h2><p class="section-intro">Um fluxo claro para acelerar decisões, reduzir retrabalho e manter o projeto alinhado com o que a empresa realmente precisa.</p></div></div>
+        <div class="process-grid">
+          <article class="step reveal"><span class="step-num mono">01 / briefing</span><h3>Entender</h3><p>Negócio, público, objetivo, identidade e referências.</p></article>
+          <article class="step reveal"><span class="step-num mono">02 / direção</span><h3>Projetar</h3><p>Estrutura, linguagem visual, experiência e chamadas para ação.</p></article>
+          <article class="step reveal"><span class="step-num mono">03 / build</span><h3>Desenvolver</h3><p>Construção responsiva, otimização e validação das interações.</p></article>
+          <article class="step reveal"><span class="step-num mono">04 / deploy</span><h3>Publicar</h3><p>Entrega final, domínio, hospedagem e próximos passos.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contato">
+      <div class="container">
+        <div class="cta-box reveal"><div><span class="kicker mono">05 / Vamos criar</span><h2>Seu próximo site pode ser o destaque daqui.</h2></div><div class="cta-side"><p>Conte sua ideia. A primeira etapa é entender o negócio e transformar isso em uma direção visual forte.</p><button class="btn primary" id="copy-brief" type="button">Copiar mensagem inicial ↗</button><div id="copy-status" class="copy-note mono" role="status" aria-live="polite"></div></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-row"><div><span class="footer-brand">JN Santos Web Studio</span><br>Sites profissionais · Lojas · Sistemas</div><div>© <span id="year"></span> · Design + tecnologia para marcas que querem crescer.</div><a href="#top">Voltar ao topo ↑</a></div></footer>
+
+  <script>
+    const header=document.querySelector('.site-header'),progress=document.querySelector('.progress'),menu=document.querySelector('.menu'),nav=document.querySelector('.nav-links');
+    const onScroll=()=>{const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=`${max>0?(scrollY/max)*100:0}%`;header.classList.toggle('scrolled',scrollY>12)};addEventListener('scroll',onScroll,{passive:true});onScroll();
+    menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Fechar menu':'Abrir menu')});
+    nav.addEventListener('click',e=>{if(e.target.closest('a')){nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}});
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+    document.getElementById('copy-brief').addEventListener('click',async()=>{const text='Olá, JN Santos Web Studio! Vi o portfólio e quero conversar sobre um site para o meu negócio.';const status=document.getElementById('copy-status');try{await navigator.clipboard.writeText(text);status.textContent='Mensagem copiada. Agora é só colar no seu WhatsApp.'}catch{status.textContent=text}});
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
