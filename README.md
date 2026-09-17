@@ -18,3 +18,6 @@ Portfólio oficial preparado para GitHub Pages.
 5. Salve e aguarde o link do GitHub Pages ficar disponível.
 
 Não há build, npm ou framework: o site funciona diretamente com `index.html`.
+
+
+Atualização v4: correções específicas para modo celular, ajustes de layout no portfólio mobile e toques visuais premium com emojis/selos.
